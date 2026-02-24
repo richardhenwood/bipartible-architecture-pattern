@@ -49,6 +49,7 @@ An example service that requires the Hybrid-Bipartible pattern is Project Quay c
 [Garage](https://garagehq.deuxfleurs.fr/) is an open-source distributed object storage service tailored for self-hosting.
 
 | Status | Scale test | Configuration | Notes |
+| --- | --- | --- | --- |
 | Works | Proof of concept | Single node | Bucket creation fails: `Error: ListBuckets returned InternalError (500): Internal error: Layout not ready` |
 
 ### Container Registry
@@ -58,4 +59,5 @@ An example service that requires the Hybrid-Bipartible pattern is Project Quay c
 [Project Quay](https://www.projectquay.io/) is the open source distribution of Red Hat Quay optimized for the secure distribution of container images no matter whether you are scaling.
 
 | Status | Scale test | Configuration | Notes |
+| --- | --- | --- | --- |
 | TODO |  |  | |
